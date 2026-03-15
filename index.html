@@ -1,50 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css">
-  <title>Juansec</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Juansec | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <div class="contenedor-header">
-    <header>
-      <div class="logo">
-        <a href="https://juansecrb.github.io/portafolio/">Juansec</a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="https://juansecrb.github.io/portafolio/">HOME</a></li>
-        </ul>
-      </nav>
+    <div id="particles-js"></div>
+
+    <header class="contenedor-header">
+        <div class="nav-wrapper">
+            <div class="logo">
+                <a href="#">Juan<span>sec</span></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="nav-link">HOME</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-  </div>
 
-  <section class="inicio">
-    <div class="contenido-banner">
-      <div class="contenedor-img">
-        <img src="images/hero.jpg" alt="Foto de Juan Ramirez" draggable="false" />
-      </div>
-      <h1>Juan Ramirez</h1>
-      <h2>Aspirante Pentester | Bug Hunter</h2>
-      <div class="redes">
-        <a href="https://x.com/juansecrb" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-          <i class="fa-brands fa-twitter"></i>
-        </a>
-        <a href="https://linkedin.com/in/juan-hack" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-          <i class="fa-brands fa-linkedin-in"></i>
-        </a>
-      </div>
-    </div>
-  </section>
+    <main class="inicio">
+        <section class="card-profile">
+            <div class="col-left">
+                <div class="border-wrapper">
+                    <div class="contenedor-img">
+                        <img src="images/hero.jpg" alt="Juan Ramirez" draggable="false" />
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-right">
+                <span class="greeting">Hello, I'm Juansec</span>
+                <h1 class="nombre-blanco">Juan Ramirez</h1>
+                <p class="descripcion">
+                    Estudiante de la <strong>UEA</strong> en ciberseguridad. Especializándome en redes <strong>CISCO</strong> y el path <strong>CWES</strong> de HackTheBox. Enfocado en CTFs y explotación de sistemas.
+                </p>
+                
+                <div class="redes">
+                    <a href="https://x.com/juansecrb" target="_blank" rel="noopener noreferrer" title="Twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/juan-hack" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://hackerone.com/juansec" target="_blank" rel="noopener noreferrer" title="HackerOne">
+                        <i class="fa-solid fa-h"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
